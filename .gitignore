@@ -1,7 +1,10 @@
-# ROS2 / colcon
+# ROS2 / colcon (root + nested workspaces)
 /build/
 /install/
 /log/
+build/
+install/
+log/
 
 # CMake
 CMakeFiles/
