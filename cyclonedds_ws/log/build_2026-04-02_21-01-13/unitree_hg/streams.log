@@ -1,0 +1,547 @@
+[0.009s] Invoking command in '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.436s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.523s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.566s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.570s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.576s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.631s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.641s] -- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)
+[0.936s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.511s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.512s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.534s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.534s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.534s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.553s] -- Found PythonExtra: .so  
+[1.715s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.732s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.734s] -- Added test 'lint_cmake' to check CMake code style
+[1.735s] -- Added test 'xmllint' to check XML markup files
+[1.738s] -- Configuring done
+[1.787s] -- Generating done
+[1.799s] -- Build files have been written to: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg
+[1.808s] Invoked command in '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg
+[1.810s] Invoking command in '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg -- -j128 -l128
+[1.852s] [  1%] Generating C code for ROS interfaces
+[1.862s] [  2%] Generating Rust code for ROS interfaces
+[1.863s] [  3%] Generating DDS interfaces
+[1.864s] [  3%] Generating C++ code for ROS interfaces
+[1.870s] [  3%] Built target ament_cmake_python_copy_unitree_hg
+[2.047s] running egg_info
+[2.048s] creating unitree_hg.egg-info
+[2.048s] writing unitree_hg.egg-info/PKG-INFO
+[2.048s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[2.049s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[2.049s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.050s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.050s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.070s] [  3%] Built target ament_cmake_python_build_unitree_hg_egg
+[2.261s] [  3%] Built target unitree_hg__rs
+[2.270s] [  3%] Built target unitree_hg__dds_connext_idl
+[2.542s] [  3%] Built target unitree_hg__cpp
+[2.553s] [  4%] Generating C++ introspection for ROS interfaces
+[2.553s] [  4%] Generating C++ type support dispatch for ROS interfaces
+[2.553s] [  5%] Generating C++ type support for eProsima Fast-RTPS
+[2.556s] [  6%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_cmd__functions.c.o
+[2.556s] [  7%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__functions.c.o
+[2.556s] [  8%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_state__functions.c.o
+[2.557s] [  8%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/imu_state__functions.c.o
+[2.558s] [ 10%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_cmd__functions.c.o
+[2.558s] [ 10%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_state__functions.c.o
+[2.558s] [ 11%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_state__functions.c.o
+[2.558s] [ 12%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_cmd__functions.c.o
+[2.558s] [ 13%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/press_sensor_state__functions.c.o
+[2.559s] [ 14%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/main_board_state__functions.c.o
+[2.559s] [ 15%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_state__functions.c.o
+[2.607s] [ 16%] Linking C shared library libunitree_hg__rosidl_generator_c.so
+[2.647s] [ 16%] Built target unitree_hg__rosidl_generator_c
+[2.661s] [ 17%] Generating C type support for eProsima Fast-RTPS
+[2.661s] [ 18%] Generating C type support dispatch for ROS interfaces
+[2.661s] [ 19%] Generating C introspection for ROS interfaces
+[3.037s] [ 20%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_cmd__type_support.cpp.o
+[3.038s] [ 21%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_cmd__type_support.cpp.o
+[3.038s] [ 22%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_state__type_support.cpp.o
+[3.038s] [ 23%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_state__type_support.cpp.o
+[3.039s] [ 24%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/imu_state__type_support.cpp.o
+[3.039s] [ 26%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_state__type_support.cpp.o
+[3.040s] [ 26%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/main_board_state__type_support.cpp.o
+[3.040s] [ 27%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/press_sensor_state__type_support.cpp.o
+[3.040s] [ 27%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_cmd__type_support.cpp.o
+[3.041s] [ 28%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_state__type_support.cpp.o
+[3.041s] [ 29%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_cmd__type_support.cpp.o
+[3.122s] [ 32%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__type_support.cpp.o
+[3.122s] [ 32%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__type_support.cpp.o
+[3.123s] [ 32%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__type_support.cpp.o
+[3.123s] [ 33%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__type_support.cpp.o
+[3.124s] [ 34%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__type_support.cpp.o
+[3.124s] [ 34%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__type_support.cpp.o
+[3.124s] [ 35%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__type_support.cpp.o
+[3.124s] [ 36%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__type_support.cpp.o
+[3.125s] [ 37%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__type_support.cpp.o
+[3.125s] [ 38%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.cpp.o
+[3.126s] [ 39%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__type_support.cpp.o
+[3.138s] [ 40%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_cmd__type_support.cpp.o
+[3.138s] [ 41%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_state__type_support.cpp.o
+[3.139s] [ 42%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_cmd__type_support.cpp.o
+[3.139s] [ 43%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_state__type_support.cpp.o
+[3.140s] [ 43%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_cmd__type_support.cpp.o
+[3.141s] [ 44%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/imu_state__type_support.cpp.o
+[3.141s] [ 45%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_state__type_support.cpp.o
+[3.142s] [ 46%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/main_board_state__type_support.cpp.o
+[3.143s] [ 47%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_cmd__type_support.cpp.o
+[3.143s] [ 48%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_state__type_support.cpp.o
+[3.143s] [ 49%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/press_sensor_state__type_support.cpp.o
+[3.180s] [ 50%] Linking CXX shared library libunitree_hg__rosidl_typesupport_c.so
+[3.202s] [ 51%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o
+[3.202s] [ 52%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o
+[3.204s] [ 53%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_cmd__type_support.cpp.o
+[3.205s] [ 54%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o
+[3.205s] [ 55%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_state__type_support.cpp.o
+[3.206s] [ 55%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_state__type_support.cpp.o
+[3.206s] [ 56%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o
+[3.206s] [ 57%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/main_board_state__type_support.cpp.o
+[3.208s] [ 58%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o
+[3.208s] [ 60%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o
+[3.208s] [ 60%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/press_sensor_state__type_support.cpp.o
+[3.230s] [ 60%] Built target unitree_hg__rosidl_typesupport_c
+[3.308s] [ 61%] Linking CXX shared library libunitree_hg__rosidl_typesupport_cpp.so
+[3.355s] [ 62%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_cmd__type_support.c.o
+[3.359s] [ 63%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_state__type_support_c.cpp.o
+[3.359s] [ 65%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_state__type_support_c.cpp.o
+[3.359s] [ 65%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_state__type_support.c.o
+[3.359s] [ 65%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_cmd__type_support_c.cpp.o
+[3.359s] [ 66%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_cmd__type_support.c.o
+[3.362s] [ 67%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_cmd__type_support_c.cpp.o
+[3.363s] [ 68%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_cmd__type_support_c.cpp.o
+[3.364s] [ 69%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/imu_state__type_support_c.cpp.o
+[3.364s] [ 70%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/imu_state__type_support.c.o
+[3.368s] [ 71%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/main_board_state__type_support_c.cpp.o
+[3.368s] [ 72%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/main_board_state__type_support.c.o
+[3.371s] [ 73%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/press_sensor_state__type_support_c.cpp.o
+[3.375s] [ 74%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_cmd__type_support.c.o
+[3.378s] [ 74%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/press_sensor_state__type_support.c.o
+[3.378s] [ 75%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_state__type_support.c.o
+[3.378s] [ 76%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_state__type_support.c.o
+[3.378s] [ 77%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_state__type_support_c.cpp.o
+[3.380s] [ 78%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_cmd__type_support_c.cpp.o
+[3.380s] [ 78%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_state__type_support.c.o
+[3.380s] [ 79%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_state__type_support_c.cpp.o
+[3.381s] [ 80%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_cmd__type_support.c.o
+[3.402s] [ 80%] Built target unitree_hg__rosidl_typesupport_cpp
+[3.443s] [ 81%] Linking C shared library libunitree_hg__rosidl_typesupport_introspection_c.so
+[3.503s] [ 81%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[3.581s] [ 82%] Linking CXX shared library libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[3.660s] [ 82%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[3.687s] [ 83%] Linking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[3.689s] [ 84%] Linking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[3.756s] [ 84%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[3.757s] [ 84%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[3.776s] [ 84%] Built target unitree_hg
+[3.795s] [ 85%] Generating Python code for ROS interfaces
+[5.074s] [ 85%] Built target unitree_hg__py
+[5.109s] [ 86%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_state_s.c.o
+[5.109s] [ 87%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_imu_state_s.c.o
+[5.109s] [ 87%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_cmd_s.c.o
+[5.110s] [ 88%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_cmd_s.c.o
+[5.111s] [ 89%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_state_s.c.o
+[5.111s] [ 89%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_press_sensor_state_s.c.o
+[5.112s] [ 90%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_state_s.c.o
+[5.114s] [ 91%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_cmd_s.c.o
+[5.114s] [ 92%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_main_board_state_s.c.o
+[5.115s] [ 93%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_cmd_s.c.o
+[5.116s] [ 94%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_state_s.c.o
+[5.231s] [ 95%] Linking C shared library rosidl_generator_py/unitree_hg/libunitree_hg__rosidl_generator_py.so
+[5.275s] [ 95%] Built target unitree_hg__rosidl_generator_py
+[5.294s] [ 95%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.296s] [ 96%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c.o
+[5.296s] [ 97%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c.o
+[5.405s] [ 98%] Linking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.407s] [ 99%] Linking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.407s] [100%] Linking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.443s] [100%] Built target unitree_hg__rosidl_typesupport_fastrtps_c__pyext
+[5.446s] [100%] Built target unitree_hg__rosidl_typesupport_introspection_c__pyext
+[5.452s] [100%] Built target unitree_hg__rosidl_typesupport_c__pyext
+[7.699s] Invoked command in '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg -- -j128 -l128
+[7.700s] Invoking command in '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg
+[7.711s] -- Install configuration: ""
+[7.711s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/ament_index/resource_index/rosidl_interfaces/unitree_hg
+[7.712s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[7.712s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[7.712s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.h
+[7.712s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.h
+[7.712s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.h
+[7.712s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_c__visibility_control.h
+[7.713s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.h
+[7.713s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.h
+[7.713s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.h
+[7.713s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.h
+[7.713s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.h
+[7.713s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.h
+[7.714s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.h
+[7.714s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[7.714s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.c
+[7.714s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.c
+[7.714s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.h
+[7.715s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.h
+[7.715s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.h
+[7.715s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.h
+[7.715s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.h
+[7.715s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.h
+[7.715s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.c
+[7.716s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.c
+[7.716s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.h
+[7.716s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.h
+[7.716s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.h
+[7.716s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.h
+[7.717s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.h
+[7.717s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.h
+[7.717s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.h
+[7.717s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.h
+[7.717s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.c
+[7.718s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.h
+[7.718s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.h
+[7.718s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.c
+[7.718s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.h
+[7.718s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.h
+[7.719s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.h
+[7.719s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.h
+[7.719s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.c
+[7.719s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.h
+[7.719s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.h
+[7.719s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.c
+[7.720s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.h
+[7.720s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.h
+[7.720s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.h
+[7.720s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.h
+[7.721s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.h
+[7.721s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.h
+[7.721s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.c
+[7.721s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.h
+[7.721s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.h
+[7.721s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.h
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.c
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.c
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.h
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.h
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.h
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/library_path.sh
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/library_path.dsv
+[7.722s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+[7.723s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so" to ""
+[7.723s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[7.723s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[7.723s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.724s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[7.724s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[7.724s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[7.724s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[7.724s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[7.725s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[7.725s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_c.h
+[7.725s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_c.h
+[7.726s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_c.h
+[7.726s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[7.726s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[7.726s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_c.h
+[7.727s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[7.727s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so" to ""
+[7.727s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[7.728s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[7.728s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.hpp
+[7.728s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.hpp
+[7.729s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.hpp
+[7.729s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.hpp
+[7.729s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.hpp
+[7.730s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.730s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.hpp
+[7.730s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[7.730s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.hpp
+[7.730s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.hpp
+[7.731s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__traits.hpp
+[7.732s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.hpp
+[7.732s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__builder.hpp
+[7.732s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__builder.hpp
+[7.732s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__builder.hpp
+[7.732s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.hpp
+[7.732s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.hpp
+[7.733s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__builder.hpp
+[7.733s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__builder.hpp
+[7.733s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__traits.hpp
+[7.733s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.hpp
+[7.733s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.hpp
+[7.733s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.hpp
+[7.733s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__traits.hpp
+[7.734s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.hpp
+[7.734s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__traits.hpp
+[7.734s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.hpp
+[7.734s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__traits.hpp
+[7.734s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__traits.hpp
+[7.735s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+[7.735s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.hpp
+[7.735s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__builder.hpp
+[7.735s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__builder.hpp
+[7.735s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+[7.736s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.hpp
+[7.736s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.hpp
+[7.736s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.hpp
+[7.737s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__builder.hpp
+[7.737s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__traits.hpp
+[7.737s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__traits.hpp
+[7.737s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__traits.hpp
+[7.738s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__builder.hpp
+[7.738s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.hpp
+[7.738s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__traits.hpp
+[7.738s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.hpp
+[7.738s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.hpp
+[7.739s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.hpp
+[7.739s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.hpp
+[7.739s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__builder.hpp
+[7.739s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__builder.hpp
+[7.740s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.hpp
+[7.740s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.hpp
+[7.740s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.hpp
+[7.740s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.hpp
+[7.740s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.hpp
+[7.740s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.hpp
+[7.740s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.hpp
+[7.740s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[7.741s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[7.741s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[7.741s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.741s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/dds_fastrtps
+[7.741s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.741s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.741s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.741s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.742s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.742s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.742s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.742s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.742s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.742s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.743s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.743s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[7.743s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.743s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[7.743s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[7.743s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[7.743s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.c
+[7.744s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[7.744s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.c
+[7.744s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_c.h
+[7.744s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[7.744s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_c.h
+[7.744s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.c
+[7.745s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[7.745s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_c.h
+[7.745s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.c
+[7.746s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.c
+[7.746s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.c
+[7.746s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[7.746s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.c
+[7.746s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.c
+[7.746s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.c
+[7.747s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_c.h
+[7.747s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[7.747s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[7.747s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[7.747s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.c
+[7.747s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.c
+[7.747s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.748s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+[7.748s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so" to ""
+[7.748s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+[7.748s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so" to ""
+[7.748s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[7.748s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[7.748s] -- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[7.748s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.cpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.cpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.cpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.cpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.cpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.749s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.cpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.cpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.cpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.cpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.cpp
+[7.750s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.cpp
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[7.751s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so" to ""
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+[7.751s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so" to ""
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.sh
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.dsv
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.751s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/top_level.txt
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/PKG-INFO
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg
+[7.752s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd_s.c
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd_s.c
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state_s.c
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state_s.c
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py
+[7.753s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd_s.c
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state_s.c
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd_s.c
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state_s.c
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state_s.c
+[7.754s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state_s.c
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state_s.c
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/libunitree_hg__rosidl_generator_py.so
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.755s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.788s] Listing '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg'...
+[7.788s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py'...
+[7.788s] Listing '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg'...
+[7.788s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py'...
+[7.788s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py'...
+[7.788s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py'...
+[7.788s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py'...
+[7.788s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py'...
+[7.789s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py'...
+[7.789s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py'...
+[7.789s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py'...
+[7.789s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py'...
+[7.789s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py'...
+[7.789s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py'...
+[7.789s] Compiling '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py'...
+[7.791s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.792s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.792s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.792s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.793s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.793s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.793s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+[7.794s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so" to ""
+[7.794s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/ament_index/resource_index/rust_packages/unitree_hg
+[7.794s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust
+[7.794s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust/Cargo.toml
+[7.794s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust/src
+[7.795s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust/src/lib.rs
+[7.795s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust/src/msg.rs
+[7.795s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust/src/msg
+[7.795s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust/src/msg/rmw.rs
+[7.795s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/rust/build.rs
+[7.795s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.idl
+[7.796s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.idl
+[7.796s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.idl
+[7.796s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/HandState.idl
+[7.796s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.idl
+[7.796s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.idl
+[7.796s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/LowState.idl
+[7.797s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.idl
+[7.797s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.idl
+[7.797s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.idl
+[7.797s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.idl
+[7.797s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.msg
+[7.798s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.msg
+[7.798s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.msg
+[7.798s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/HandState.msg
+[7.798s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.msg
+[7.798s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.msg
+[7.798s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/LowState.msg
+[7.799s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.msg
+[7.799s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.msg
+[7.799s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.msg
+[7.799s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.msg
+[7.799s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext
+[7.800s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowState_.idl
+[7.800s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MainBoardState_.idl
+[7.800s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorState_.idl
+[7.800s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandState_.idl
+[7.800s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandCmd_.idl
+[7.801s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsState_.idl
+[7.801s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsCmd_.idl
+[7.801s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorCmd_.idl
+[7.801s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/PressSensorState_.idl
+[7.801s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/IMUState_.idl
+[7.801s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowCmd_.idl
+[7.802s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/ament_index/resource_index/package_run_dependencies/unitree_hg
+[7.802s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/ament_index/resource_index/parent_prefix_path/unitree_hg
+[7.802s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.sh
+[7.802s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.dsv
+[7.802s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/path.sh
+[7.802s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/environment/path.dsv
+[7.803s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/local_setup.bash
+[7.803s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/local_setup.sh
+[7.803s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/local_setup.zsh
+[7.803s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/local_setup.dsv
+[7.803s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.dsv
+[7.803s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/ament_index/resource_index/packages/unitree_hg
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport.cmake
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport-noconfig.cmake
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport.cmake
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cppExport.cmake
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.804s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport-noconfig.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport-noconfig.cmake
+[7.805s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport.cmake
+[7.806s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport-noconfig.cmake
+[7.806s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake-extras.cmake
+[7.806s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.806s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.806s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_libraries-extras.cmake
+[7.806s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_targets-extras.cmake
+[7.806s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.807s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.807s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig.cmake
+[7.807s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig-version.cmake
+[7.807s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/package.xml
+[7.856s] Invoked command in '/home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vi/lxy/b2+z1/b2z1_ros2/cyclonedds_ws/build/unitree_hg

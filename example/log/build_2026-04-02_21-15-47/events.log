@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (unitree_ros2_example) JobQueued: {'identifier': 'unitree_ros2_example', 'dependencies': OrderedDict()}
+[0.000269] (unitree_ros2_example) JobStarted: {'identifier': 'unitree_ros2_example'}
+[0.007548] (unitree_ros2_example) JobProgress: {'identifier': 'unitree_ros2_example', 'progress': 'cmake'}
+[0.008057] (unitree_ros2_example) JobProgress: {'identifier': 'unitree_ros2_example', 'progress': 'build'}
+[0.008663] (unitree_ros2_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example', '--', '-j128', '-l128'], 'cwd': '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/vi/lxy/b2+z1'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'vi'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/tcf.json","messagesFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/nls.messages.json","corruptMarkerFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/tcf.json","_cacheRoot":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn","_resolvedLanguagePackCoreLocation":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/bf9252a2fb45be6893dd8870c0bf37e2e1766d61","_corruptedFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vi'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/vi/lxy/b2+z1'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6eaaa73e-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2993'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3216'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a5e87cfab4025bc43a4e602b69cdd791'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16091'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vi'), ('JOURNAL_STREAM', '8:45104'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'vi'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vi/.local/bin:/home/vi/.codex/tmp/arg0/codex-arg024uw4H:/opt/ros/humble/bin:/home/vi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vi/.vscode/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/vi-ws:@/tmp/.ICE-unix/3216,unix/vi-ws:/tmp/.ICE-unix/3216'), ('INVOCATION_ID', '3dacb9f7200e4d2fbe7d61975341fb96'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20888242_c7a6_497d_85f7_b05725cd3dd5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.224'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d4e1e-f721-7ce3-81cb-48a928869b8c'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/vi/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a5e87cfab4025bc43a4e602b69cdd791'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '16091'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069476] (unitree_ros2_example) StdoutLine: {'line': b'[  5%] Built target low_level_ctrl\n'}
+[0.071424] (unitree_ros2_example) StdoutLine: {'line': b'[  8%] Built target read_low_state\n'}
+[0.071885] (unitree_ros2_example) StdoutLine: {'line': b'[ 13%] Built target low_level_ctrl_hg\n'}
+[0.073145] (unitree_ros2_example) StdoutLine: {'line': b'[ 20%] Built target read_motion_state\n'}
+[0.073204] (unitree_ros2_example) StdoutLine: {'line': b'[ 20%] Built target read_low_state_hg\n'}
+[0.073247] (unitree_ros2_example) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target b2_stand_example\n'}
+[0.073289] (unitree_ros2_example) StdoutLine: {'line': b'[ 29%] Built target read_wireless_controller\n'}
+[0.073342] (unitree_ros2_example) StdoutLine: {'line': b'[ 29%] Built target g1_low_level_example\n'}
+[0.073767] (unitree_ros2_example) StdoutLine: {'line': b'[ 34%] Built target go2_stand_example\n'}
+[0.074348] (unitree_ros2_example) StdoutLine: {'line': b'[ 39%] Built target g1_arm_sdk_dds_example\n'}
+[0.075829] (unitree_ros2_example) StdoutLine: {'line': b'[ 46%] Built target g1_arm_action_example\n'}
+[0.075888] (unitree_ros2_example) StdoutLine: {'line': b'[ 50%] Built target go2_robot_state_client\n'}
+[0.076966] (unitree_ros2_example) StdoutLine: {'line': b'[ 56%] Built target g1_ankle_swing_example\n'}
+[0.077023] (unitree_ros2_example) StdoutLine: {'line': b'[ 60%] Built target go2_sport_client\n'}
+[0.077741] (unitree_ros2_example) StdoutLine: {'line': b'[ 65%] Built target b2w_stand_example\n'}
+[0.078201] (unitree_ros2_example) StdoutLine: {'line': b'[ 74%] Built target g1_dex3_example\n'}
+[0.078260] (unitree_ros2_example) StdoutLine: {'line': b'[ 75%] Built target b2_sport_client\n'}
+[0.078646] (unitree_ros2_example) StdoutLine: {'line': b'[ 81%] Built target g1_loco_client_example\n'}
+[0.078698] (unitree_ros2_example) StdoutLine: {'line': b'[ 86%] Built target b2w_sport_client\n'}
+[0.079007] (unitree_ros2_example) StdoutLine: {'line': b'[ 91%] Built target g1_dual_arm_example\n'}
+[0.079457] (unitree_ros2_example) StdoutLine: {'line': b'[ 94%] Built target g1_audio_client_example\n'}
+[0.088986] (unitree_ros2_example) StdoutLine: {'line': b'[ 96%] Building CXX object CMakeFiles/b2_stand_example.dir/src/b2/b2_stand_example.cpp.o\n'}
+[0.099336] (-) TimerEvent: {}
+[0.199420] (-) TimerEvent: {}
+[0.299508] (-) TimerEvent: {}
+[0.399599] (-) TimerEvent: {}
+[0.499686] (-) TimerEvent: {}
+[0.599770] (-) TimerEvent: {}
+[0.699861] (-) TimerEvent: {}
+[0.799959] (-) TimerEvent: {}
+[0.900059] (-) TimerEvent: {}
+[1.000158] (-) TimerEvent: {}
+[1.100258] (-) TimerEvent: {}
+[1.200357] (-) TimerEvent: {}
+[1.300462] (-) TimerEvent: {}
+[1.400573] (-) TimerEvent: {}
+[1.500690] (-) TimerEvent: {}
+[1.600792] (-) TimerEvent: {}
+[1.700891] (-) TimerEvent: {}
+[1.801034] (-) TimerEvent: {}
+[1.901143] (-) TimerEvent: {}
+[2.001244] (-) TimerEvent: {}
+[2.101397] (-) TimerEvent: {}
+[2.201560] (-) TimerEvent: {}
+[2.301681] (-) TimerEvent: {}
+[2.401805] (-) TimerEvent: {}
+[2.501977] (-) TimerEvent: {}
+[2.602088] (-) TimerEvent: {}
+[2.702193] (-) TimerEvent: {}
+[2.802294] (-) TimerEvent: {}
+[2.902399] (-) TimerEvent: {}
+[3.002501] (-) TimerEvent: {}
+[3.102650] (-) TimerEvent: {}
+[3.202814] (-) TimerEvent: {}
+[3.302946] (-) TimerEvent: {}
+[3.403082] (-) TimerEvent: {}
+[3.503211] (-) TimerEvent: {}
+[3.603322] (-) TimerEvent: {}
+[3.703424] (-) TimerEvent: {}
+[3.803526] (-) TimerEvent: {}
+[3.903628] (-) TimerEvent: {}
+[4.003726] (-) TimerEvent: {}
+[4.103827] (-) TimerEvent: {}
+[4.203967] (-) TimerEvent: {}
+[4.304080] (-) TimerEvent: {}
+[4.404204] (-) TimerEvent: {}
+[4.504323] (-) TimerEvent: {}
+[4.604425] (-) TimerEvent: {}
+[4.704559] (-) TimerEvent: {}
+[4.804703] (-) TimerEvent: {}
+[4.904821] (-) TimerEvent: {}
+[5.004969] (-) TimerEvent: {}
+[5.105080] (-) TimerEvent: {}
+[5.205196] (-) TimerEvent: {}
+[5.305300] (-) TimerEvent: {}
+[5.405424] (-) TimerEvent: {}
+[5.505561] (-) TimerEvent: {}
+[5.605672] (-) TimerEvent: {}
+[5.705807] (-) TimerEvent: {}
+[5.805954] (-) TimerEvent: {}
+[5.906076] (-) TimerEvent: {}
+[6.006178] (-) TimerEvent: {}
+[6.106277] (-) TimerEvent: {}
+[6.206379] (-) TimerEvent: {}
+[6.306478] (-) TimerEvent: {}
+[6.406591] (-) TimerEvent: {}
+[6.506717] (-) TimerEvent: {}
+[6.606821] (-) TimerEvent: {}
+[6.706958] (-) TimerEvent: {}
+[6.807106] (-) TimerEvent: {}
+[6.907257] (-) TimerEvent: {}
+[7.007377] (-) TimerEvent: {}
+[7.107493] (-) TimerEvent: {}
+[7.207619] (-) TimerEvent: {}
+[7.307726] (-) TimerEvent: {}
+[7.407855] (-) TimerEvent: {}
+[7.508037] (-) TimerEvent: {}
+[7.608147] (-) TimerEvent: {}
+[7.708253] (-) TimerEvent: {}
+[7.808398] (-) TimerEvent: {}
+[7.908541] (-) TimerEvent: {}
+[8.008660] (-) TimerEvent: {}
+[8.108767] (-) TimerEvent: {}
+[8.208877] (-) TimerEvent: {}
+[8.309035] (-) TimerEvent: {}
+[8.409188] (-) TimerEvent: {}
+[8.509313] (-) TimerEvent: {}
+[8.609416] (-) TimerEvent: {}
+[8.709518] (-) TimerEvent: {}
+[8.809620] (-) TimerEvent: {}
+[8.909720] (-) TimerEvent: {}
+[9.009819] (-) TimerEvent: {}
+[9.109957] (-) TimerEvent: {}
+[9.210067] (-) TimerEvent: {}
+[9.310182] (-) TimerEvent: {}
+[9.410296] (-) TimerEvent: {}
+[9.510416] (-) TimerEvent: {}
+[9.610516] (-) TimerEvent: {}
+[9.710615] (-) TimerEvent: {}
+[9.810713] (-) TimerEvent: {}
+[9.910806] (-) TimerEvent: {}
+[10.010903] (-) TimerEvent: {}
+[10.111038] (-) TimerEvent: {}
+[10.211141] (-) TimerEvent: {}
+[10.311236] (-) TimerEvent: {}
+[10.411344] (-) TimerEvent: {}
+[10.511458] (-) TimerEvent: {}
+[10.611561] (-) TimerEvent: {}
+[10.676111] (unitree_ros2_example) StdoutLine: {'line': b'[ 98%] Linking CXX executable b2_stand_example\n'}
+[10.711641] (-) TimerEvent: {}
+[10.811760] (-) TimerEvent: {}
+[10.911867] (-) TimerEvent: {}
+[11.011971] (-) TimerEvent: {}
+[11.112073] (-) TimerEvent: {}
+[11.167651] (unitree_ros2_example) StdoutLine: {'line': b'[100%] Built target b2_stand_example\n'}
+[11.180426] (unitree_ros2_example) CommandEnded: {'returncode': 0}
+[11.181340] (unitree_ros2_example) JobProgress: {'identifier': 'unitree_ros2_example', 'progress': 'install'}
+[11.190148] (unitree_ros2_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example'], 'cwd': '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/vi/lxy/b2+z1'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'vi'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/tcf.json","messagesFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/nls.messages.json","corruptMarkerFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/tcf.json","_cacheRoot":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn","_resolvedLanguagePackCoreLocation":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/bf9252a2fb45be6893dd8870c0bf37e2e1766d61","_corruptedFile":"/home/vi/.config/Code/clp/03669bf149a9f1ccd9efdb51e6a2dbb8.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vi'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/vi/lxy/b2+z1'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6eaaa73e-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2993'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3216'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a5e87cfab4025bc43a4e602b69cdd791'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16091'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vi'), ('JOURNAL_STREAM', '8:45104'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'vi'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vi/.local/bin:/home/vi/.codex/tmp/arg0/codex-arg024uw4H:/opt/ros/humble/bin:/home/vi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vi/.vscode/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/vi-ws:@/tmp/.ICE-unix/3216,unix/vi-ws:/tmp/.ICE-unix/3216'), ('INVOCATION_ID', '3dacb9f7200e4d2fbe7d61975341fb96'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20888242_c7a6_497d_85f7_b05725cd3dd5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.224'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d4e1e-f721-7ce3-81cb-48a928869b8c'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/vi/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a5e87cfab4025bc43a4e602b69cdd791'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '16091'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.198768] (unitree_ros2_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.198992] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/low_level_ctrl\n'}
+[11.199296] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/low_level_ctrl_hg\n'}
+[11.199677] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_low_level_example\n'}
+[11.199951] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_low_state\n'}
+[11.200340] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_low_state_hg\n'}
+[11.200668] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_motion_state\n'}
+[11.201004] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_wireless_controller\n'}
+[11.201338] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_sport_client\n'}
+[11.201666] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_stand_example\n'}
+[11.201942] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2_sport_client\n'}
+[11.202264] (unitree_ros2_example) StdoutLine: {'line': b'-- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2_stand_example\n'}
+[11.211211] (unitree_ros2_example) StdoutLine: {'line': b'-- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2_stand_example" to ""\n'}
+[11.211423] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2w_sport_client\n'}
+[11.211705] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2w_stand_example\n'}
+[11.212050] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_robot_state_client\n'}
+[11.212158] (-) TimerEvent: {}
+[11.212328] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example\n'}
+[11.212703] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_arm_action_example\n'}
+[11.213044] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_dex3_example\n'}
+[11.213375] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_loco_client_example\n'}
+[11.213703] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_ankle_swing_example\n'}
+[11.214043] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_dual_arm_example\n'}
+[11.214321] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_audio_client_example\n'}
+[11.214507] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example\n'}
+[11.214885] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example\n'}
+[11.215127] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh\n'}
+[11.215402] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv\n'}
+[11.215490] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh\n'}
+[11.215602] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv\n'}
+[11.215683] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash\n'}
+[11.215762] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh\n'}
+[11.215841] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh\n'}
+[11.215927] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv\n'}
+[11.216018] (unitree_ros2_example) StdoutLine: {'line': b'-- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv\n'}
+[11.216098] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example\n'}
+[11.216180] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake\n'}
+[11.216262] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake\n'}
+[11.216345] (unitree_ros2_example) StdoutLine: {'line': b'-- Up-to-date: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/package.xml\n'}
+[11.217204] (unitree_ros2_example) CommandEnded: {'returncode': 0}
+[11.247760] (unitree_ros2_example) JobEnded: {'identifier': 'unitree_ros2_example', 'rc': 0}
+[11.248604] (-) EventReactorShutdown: {}

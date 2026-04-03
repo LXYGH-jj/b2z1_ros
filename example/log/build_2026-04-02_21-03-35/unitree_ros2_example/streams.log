@@ -1,0 +1,126 @@
+[0.010s] Invoking command in '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example -- -j128 -l128
+[0.064s] Consolidate compiler generated dependencies of target low_level_ctrl
+[0.075s] Consolidate compiler generated dependencies of target read_motion_state
+[0.075s] Consolidate compiler generated dependencies of target read_low_state_hg
+[0.078s] Consolidate compiler generated dependencies of target read_wireless_controller
+[0.078s] Consolidate compiler generated dependencies of target read_low_state
+[0.080s] [  5%] Built target low_level_ctrl
+[0.083s] Consolidate compiler generated dependencies of target g1_low_level_example
+[0.083s] Consolidate compiler generated dependencies of target g1_audio_client_example
+[0.083s] Consolidate compiler generated dependencies of target low_level_ctrl_hg
+[0.084s] Consolidate compiler generated dependencies of target go2_stand_example
+[0.085s] Consolidate compiler generated dependencies of target g1_arm_sdk_dds_example
+[0.086s] Consolidate compiler generated dependencies of target g1_ankle_swing_example
+[0.086s] Consolidate compiler generated dependencies of target b2w_sport_client
+[0.086s] Consolidate compiler generated dependencies of target g1_loco_client_example
+[0.086s] Consolidate compiler generated dependencies of target g1_arm_action_example
+[0.086s] Consolidate compiler generated dependencies of target go2_sport_client
+[0.087s] Consolidate compiler generated dependencies of target go2_robot_state_client
+[0.087s] Consolidate compiler generated dependencies of target g1_dex3_example
+[0.087s] Consolidate compiler generated dependencies of target b2w_stand_example
+[0.087s] Consolidate compiler generated dependencies of target b2_sport_client
+[0.087s] Consolidate compiler generated dependencies of target g1_dual_arm_example
+[0.088s] Consolidate compiler generated dependencies of target b2_stand_example
+[0.089s] [  8%] Built target read_motion_state
+[0.090s] [ 12%] Built target read_low_state_hg
+[0.093s] [ 15%] Built target read_wireless_controller
+[0.094s] [ 18%] Built target read_low_state
+[0.098s] [ 24%] Built target g1_low_level_example
+[0.098s] [ 27%] Built target g1_audio_client_example
+[0.099s] [ 32%] Built target low_level_ctrl_hg
+[0.101s] [ 37%] Built target go2_stand_example
+[0.101s] [ 43%] Built target g1_arm_sdk_dds_example
+[0.101s] [ 50%] Built target b2w_sport_client
+[0.101s] [ 53%] Built target g1_arm_action_example
+[0.102s] [ 58%] Built target go2_sport_client
+[0.102s] [ 63%] Built target g1_ankle_swing_example
+[0.103s] [ 68%] Built target g1_loco_client_example
+[0.103s] [ 74%] Built target b2_sport_client
+[0.104s] [ 79%] Built target g1_dual_arm_example
+[0.104s] [ 84%] Built target b2w_stand_example
+[0.105s] [ 89%] Built target go2_robot_state_client
+[0.105s] [ 91%] Building CXX object CMakeFiles/b2_stand_example.dir/src/b2/b2_stand_example.cpp.o
+[0.105s] [ 96%] Built target g1_dex3_example
+[3.289s] In file included from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/thirdparty/robotics.h:9,
+[3.289s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/model/ArmModel.h:5,
+[3.289s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/control/ctrlComponents.h:9,
+[3.289s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/control/unitreeArm.h:4,
+[3.289s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/src/b2/b2_stand_example.cpp:16:
+[3.289s] /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/math/mathTools.h: In constructor ‘UNITREE_ARM::AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+[3.289s] /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/math/mathTools.h:244:17: warning: ‘UNITREE_ARM::AvgCov::_valueName’ will be initialized after [-Wreorder]
+[3.289s]   244 |     std::string _valueName;
+[3.289s]       |                 ^~~~~~~~~~
+[3.290s] /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/math/mathTools.h:238:10: warning:   ‘bool UNITREE_ARM::AvgCov::_avgOnly’ [-Wreorder]
+[3.290s]   238 |     bool _avgOnly;
+[3.290s]       |          ^~~~~~~~
+[3.290s] In file included from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/thirdparty/robotics.h:9,
+[3.290s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/model/ArmModel.h:5,
+[3.290s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/control/ctrlComponents.h:9,
+[3.290s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/control/unitreeArm.h:4,
+[3.290s]                  from /home/vi/lxy/b2+z1/b2z1_ros2/example/src/src/b2/b2_stand_example.cpp:16:
+[3.290s] /home/vi/lxy/b2+z1/b2z1_ros2/example/src/../../../z1_sdk/include/unitree_arm_sdk/math/mathTools.h:210:5: warning:   when initialized here [-Wreorder]
+[3.290s]   210 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[3.290s]       |     ^~~~~~
+[11.704s] [ 98%] Linking CXX executable b2_stand_example
+[12.207s] [100%] Built target b2_stand_example
+[12.221s] Invoked command in '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example -- -j128 -l128
+[12.233s] Invoking command in '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example
+[12.240s] -- Install configuration: ""
+[12.240s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/low_level_ctrl
+[12.241s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/low_level_ctrl" to ""
+[12.241s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/low_level_ctrl_hg
+[12.246s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/low_level_ctrl_hg" to ""
+[12.246s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_low_level_example
+[12.250s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_low_level_example" to ""
+[12.250s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_low_state
+[12.254s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_low_state" to ""
+[12.255s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_low_state_hg
+[12.259s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_low_state_hg" to ""
+[12.259s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_motion_state
+[12.263s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_motion_state" to ""
+[12.263s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_wireless_controller
+[12.267s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/read_wireless_controller" to ""
+[12.267s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_sport_client
+[12.274s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_sport_client" to ""
+[12.275s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_stand_example
+[12.279s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_stand_example" to ""
+[12.279s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2_sport_client
+[12.281s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2_sport_client" to ""
+[12.281s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2_stand_example
+[12.289s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2_stand_example" to ""
+[12.289s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2w_sport_client
+[12.291s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2w_sport_client" to ""
+[12.291s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2w_stand_example
+[12.298s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/b2w_stand_example" to ""
+[12.298s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_robot_state_client
+[12.304s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/go2_robot_state_client" to ""
+[12.304s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example
+[12.308s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example" to ""
+[12.308s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_arm_action_example
+[12.314s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_arm_action_example" to ""
+[12.314s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_dex3_example
+[12.319s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_dex3_example" to ""
+[12.319s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_loco_client_example
+[12.324s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_loco_client_example" to ""
+[12.325s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_ankle_swing_example
+[12.331s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_ankle_swing_example" to ""
+[12.331s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_dual_arm_example
+[12.339s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_dual_arm_example" to ""
+[12.339s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_audio_client_example
+[12.345s] -- Set runtime path of "/home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/bin/g1_audio_client_example" to ""
+[12.345s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+[12.345s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+[12.345s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+[12.345s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+[12.346s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+[12.346s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+[12.346s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+[12.346s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+[12.346s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+[12.346s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+[12.347s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+[12.347s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+[12.347s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+[12.347s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+[12.347s] -- Installing: /home/vi/lxy/b2+z1/b2z1_ros2/example/install/unitree_ros2_example/share/unitree_ros2_example/package.xml
+[12.350s] Invoked command in '/home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vi/lxy/b2+z1/b2z1_ros2/example/build/unitree_ros2_example
