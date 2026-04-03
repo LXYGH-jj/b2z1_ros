@@ -95,10 +95,10 @@ public:
     TestOption *test_option_{nullptr};
 };
 
-class B2wSportClientNode : public rclcpp::Node
+class B2SportClientNode : public rclcpp::Node
 {
 public:
-    B2wSportClientNode() : Node("b2w_sport_client_node"), sport_client_(this)
+    B2SportClientNode() : Node("b2_sport_client_node"), sport_client_(this)
     {
         test_option_.id = 1;
         user_interface_.test_option_ = &test_option_;
@@ -194,7 +194,7 @@ private:
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<B2wSportClientNode>();
+    auto node = std::make_shared<B2SportClientNode>();
     rclcpp::executors::MultiThreadedExecutor executor;
     executor.add_node(node);
     executor.spin();
